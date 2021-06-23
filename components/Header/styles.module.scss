@@ -1,0 +1,48 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    color: $accent;
+
+    @include respond-below(sm){
+        margin-top: -50px;
+    }
+
+    .mainHeader{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .headerTitle{
+            font-weight: bold;
+            letter-spacing: 0.185em;
+            font-size: 3em;
+
+            @include respond-below(md){
+                font-size: 2.5em;
+            }
+            @include respond-below(sm){
+                font-size: 1.2em;
+            }
+        }
+        .headerImage{
+            height: 20vw;
+        }
+    }
+    .sectionTitle{
+        text-align: left;
+        display: flex;
+        gap: 20px;
+        font-size: 1em;
+
+        @include respond-below(sm){
+            font-size: 0.5em;
+        }
+    }
+    .divider{
+        width: 100%;       
+    }
+}

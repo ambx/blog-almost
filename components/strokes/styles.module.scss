@@ -1,0 +1,16 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.container{
+    margin-top: 35px;
+    text-align: center;
+    color: $accent;
+    img{
+        height: 20vw;
+    }
+    p{
+        text-align: left;
+        font-size: 2em;
+        opacity: 80%;
+    }
+}

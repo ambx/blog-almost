@@ -1,0 +1,19 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.container{
+    margin-top: 35px;
+    text-align: center;
+    color: $accent;
+    img{
+        height: 20vw;
+    }
+    .blogposts{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        gap: 80px;
+        @include respond-below(sm){
+            grid-template-columns: auto;
+        }
+    }
+}
