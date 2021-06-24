@@ -1,6 +1,6 @@
 ---
 title: 'Pursuit of X'
-date: '2017-05027'
+date: '2017-05-27'
 category: 'Poem'
 preview: 'We, as humans, are forever looking for reasons to let go of everything and celebrate, right? Celebrate with lessons taught to us by life, to help better ourselves for whatever reason we’re here for or plainly put, maybe just to puff off the undesired tension around.
 I, like most people, love celebrations. This practice of acknowledgement, of appreciation, of loosening up, does things to our otherwise overworked and crippling spirits......'
