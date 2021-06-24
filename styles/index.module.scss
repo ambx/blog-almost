@@ -1,0 +1,62 @@
+@import './colors';
+@import './mixins';
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+    color: $accent;
+    @include respond-below(sm){
+        margin-top: 20px;
+    }
+    img{
+        height: 20vw;
+    }
+    .blogposts{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        gap: 80px;
+        text-align: left;
+        @include respond-below(md){
+            grid-template-columns: auto;
+            margin-top: 80px;
+        }
+        .blogCard{
+            list-style: none;
+            margin-top: -50px;
+            @include respond-below(sm){
+                margin-top: -65px;
+            }
+            .title{
+                text-align: left;
+                font-size: 1.5em;
+                letter-spacing: 2px;
+                text-transform: capitalize;
+                @include respond-below(sm){
+                    font-size: 0.8em;
+                }
+            }
+            .preview{
+                text-align: justify;
+                opacity: 70%;
+                @include respond-below(sm){
+                    font-size: 0.5em;
+                }
+                
+            }
+            .detail{                
+                font-size: 0.8em;
+                opacity: 40%;
+                font-style: italic;
+                @include respond-below(sm){
+                    font-size: 0.3em;
+                }
+                span{
+                    margin-left: 10px;
+                }
+            }
+            
+        }
+
+    }
+}

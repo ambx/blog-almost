@@ -1,7 +1,5 @@
-import styles from "./styles.module.scss";
-import Image from 'next/image'
-import Link from 'next/link'
 import Blog from '../blogpost/index'
+import styles from "./styles.module.scss"
 
 export default function Words(props){
     return(

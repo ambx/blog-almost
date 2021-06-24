@@ -1,11 +1,11 @@
 import Link from 'next/link'
-import styles from "./styles.module.scss";
+import styles from "./styles.module.scss"
 
 export default function navbar() {
   return (
     <nav className={styles.NavbarItem}>
      <div className={styles.navLogo}>
-     Almost
+      Almost      
      </div>
      <ul> 
         <li>

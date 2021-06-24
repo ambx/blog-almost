@@ -5,8 +5,7 @@
     position: relative;
     margin: 0 8vw;
     min-height: 100%;
-    padding-bottom: 30px;
-
+    
     @include respond-below(sm){
         margin: 0 2vw;
     }

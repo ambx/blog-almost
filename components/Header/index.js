@@ -1,9 +1,9 @@
-import styles from "./styles.module.scss";
-import Image from 'next/image'
 import Link from 'next/link'
+import styles from "./styles.module.scss"
 
 
 export default function Header(props) {
+    
     return(
         <header className={styles.header}>
             <div className={styles.mainHeader}>
@@ -13,15 +13,24 @@ export default function Header(props) {
             <br />
             <div className={styles.sectionTitle}>
                 <p>
-                <Link href="/">
+                <Link href="/" className={props.s1} >
                     <a>{props.sec1}</a>
                 </Link>
                 </p>
                 <p>
-                <Link href="/strokes">
+                <Link href="/strokes" className={props.s2}>
                     <a>{props.sec2}</a>
                 </Link>
                 </p>
+                <style jsx>
+                    {
+                        `
+                        .active{
+                            color: #E7D69B;
+                        }
+                        `
+                    }
+                </style>
             </div>
             <img className={styles.divider} src={"/images/divider.svg"} />
         </header>

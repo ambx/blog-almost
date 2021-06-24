@@ -1,7 +1,7 @@
-import '../styles/globals.scss'
 import Layout from '../components/Layout/index'
+import '../styles/globals.scss'
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   return (
     <Layout>
   <Component {...pageProps} />
@@ -9,4 +9,3 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
