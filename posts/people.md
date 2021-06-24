@@ -1,8 +1,8 @@
 ---
 title: 'People'
-date: '04-12-2019'
-category: 'Poem'
-preview: 'Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.'
+date: '2019-12-04'
+category: 'Prose'
+preview: 'I like watching. I like watching people. I may have violated a few privacy lines, but more than watching, I like to observe. Observe, note, learn. I’m a curious learner. I like breaking things and exploring that what lays underneath and maybe even propose my own thesis for the same......'
 ---
 
 I like watching. I like watching people. I may have violated a few privacy lines, but more than watching, I like to observe. Observe, note, learn. I’m a curious learner. I like breaking things and exploring that what lays underneath and maybe even propose my own thesis for the same.

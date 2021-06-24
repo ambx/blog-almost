@@ -1,8 +1,8 @@
 ---
 title: 'Crumbles'
-date: '16-12-2018'
-category: 'Poem'
-preview: 'Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.'
+date: '2018-12-16'
+category: 'Prose'
+preview: 'As I prepare to unwind after a day’s long struggle to conclude the plain nuisance of daily routine beyond my doorstep, something in me triggers utter stillness and coldness. See here’s the thing, I don’t like, or rather, I fear being confronted by the chemical reactions that are created in my very own head......'
 ---
 
 As I prepare to unwind after a day’s long struggle to conclude the plain nuisance of daily routine beyond my doorstep, something in me triggers utter stillness and coldness. See here’s the thing, I don’t like, or rather, I fear being confronted by the chemical reactions that are created in my very own head. One could never realize the world of power this abstract idea called ‘thoughts’ could hold.

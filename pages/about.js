@@ -6,7 +6,7 @@ import About from '../components/about/index'
 export default function Home() {
   return (
     <div>
-        <Navbar />
+        <Navbar about='active'/>
         <Header title="Almost" image="/images/about.svg" />
         <About />
     </div>

@@ -13,16 +13,20 @@ export default function Header(props) {
             <br />
             <div className={styles.sectionTitle}>
                 <p>
-                <Link href="/" className={props.s1} >
-                    <a>{props.sec1}</a>
+                <Link href="/"  >
+                    <a className={props.s1}>{props.sec1}</a>
                 </Link>
                 </p>
                 <p>
-                <Link href="/strokes" className={props.s2}>
-                    <a>{props.sec2}</a>
+                <Link href="/strokes">
+                    <a className={props.s2}>{props.sec2}</a>
                 </Link>
                 </p>
-                <style jsx>
+                
+            </div>
+            <img className={styles.divider} src={"/images/divider.svg"} />
+            
+            <style jsx>
                     {
                         `
                         .active{
@@ -31,8 +35,6 @@ export default function Header(props) {
                         `
                     }
                 </style>
-            </div>
-            <img className={styles.divider} src={"/images/divider.svg"} />
         </header>
     )
 }

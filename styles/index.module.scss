@@ -27,34 +27,41 @@
             @include respond-below(sm){
                 margin-top: -65px;
             }
-            .title{
-                text-align: left;
-                font-size: 1.5em;
-                letter-spacing: 2px;
-                text-transform: capitalize;
-                @include respond-below(sm){
+            a{
+                color: $accent;
+                .title{
+                    text-align: left;
+                    font-weight: normal;
+                    text-transform: uppercase;    
+                    letter-spacing: 3px;                
+                    @include respond-below(sm){
+                        font-size: 0.8em;
+                    }
+                }
+                .preview{
+                    text-align: justify;
+                    opacity: 50%;
+                    @include respond-below(sm){
+                        font-size: 0.5em;
+                    }
+                    
+                }
+                .detail{                
                     font-size: 0.8em;
+                    opacity: 30%;
+                    font-style: italic;
+                    @include respond-below(sm){
+                        font-size: 0.3em;
+                    }
+                    span{
+                        margin-left: 10px;
+                    }
                 }
             }
-            .preview{
-                text-align: justify;
-                opacity: 70%;
-                @include respond-below(sm){
-                    font-size: 0.5em;
-                }
-                
+            a:hover{
+                color: $grey;
             }
-            .detail{                
-                font-size: 0.8em;
-                opacity: 40%;
-                font-style: italic;
-                @include respond-below(sm){
-                    font-size: 0.3em;
-                }
-                span{
-                    margin-left: 10px;
-                }
-            }
+            
             
         }
 

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from "./styles.module.scss"
 
-export default function navbar() {
+export default function navbar(props) {
   return (
     <nav className={styles.NavbarItem}>
      <div className={styles.navLogo}>
@@ -10,16 +10,26 @@ export default function navbar() {
      <ul> 
         <li>
         <Link href="/">
-        <a>Expression</a>
+        <a className={props.exp}>Expression</a>
         </Link>
           
         </li>
         <li>
           <Link href="/about">
-            <a>About</a>
+            <a className={props.about}>About</a>
           </Link>
         </li> 
       </ul>
+
+      <style jsx>
+        {
+          `
+            .active{
+              color: #E7D69B;
+            }
+           `
+        }
+      </style>
     </nav>
   );
 }

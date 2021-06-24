@@ -1,8 +1,9 @@
 ---
 title: 'Trapped'
-date: '20-05-2019'
+date: '2019-05-20'
 category: 'Poem'
-preview: 'Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.'
+preview: 'We, as humans, are forever looking for reasons to let go of everything and celebrate, right? Celebrate with lessons taught to us by life, to help better ourselves for whatever reason we’re here for or plainly put, maybe just to puff off the undesired tension around.
+I, like most people, love celebrations. This practice of acknowledgement, of appreciation, of loosening up, does things to our otherwise overworked and crippling spirits......'
 ---
 
 Perhaps, it is this facade that I’ve wrapped myself with,
