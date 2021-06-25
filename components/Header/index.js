@@ -8,15 +8,15 @@ import Divider from '/public/images/divider.js'
 
 
 export default function Header(props) {
-    const svg=props.svg
+    const svg=props.title
     return(
         <header className={styles.header}>
             <div className={styles.mainHeader}>
                 <h1 className={styles.headerTitle}>{props.title}</h1>
 
-                {svg==="AboutImage" ? <AboutImage /> : null}
-                {svg==="ExpressionImage" ? <ExpressionImage /> : null}
-                {svg==="WordsImage" ? <WordsImage /> : null}
+                {svg==="Almost" ? <AboutImage /> : null}
+                {svg==="Expression" ? <ExpressionImage /> : null}
+                {svg==="Words" ? <WordsImage /> : null}
 
                 
             </div>

@@ -11,7 +11,7 @@ export default function Home({ allPostsData }) {
   return (
     <div>
       <Navbar exp='active'/>
-      <Header title="Expression" svg="ExpressionImage" sec1="Words" sec2="Strokes" s1="active" key="Trial" />
+      <Header title="Expression" sec1="Words" sec2="Strokes" s1="active" key="Trial" />
       <section className={styles.container}>
       <div className={styles.pic}><Word />
          </div>
