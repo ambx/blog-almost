@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
         <Navbar about='active'/>
-        <Header title="Almost" image="/images/about.svg" />
+        <Header title="Almost" svg="AboutImage" />
         <About />
     </div>
   )

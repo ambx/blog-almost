@@ -5,16 +5,16 @@ import { getSortedPostsData } from '../lib/posts'
 import Navbar from '../components/navbar/index'
 import Header from '../components/Header/index'
 import styles from '../styles/index.module.scss'
-import WordsSVG from '../public/images/Words.svg'
+import Word from '/public/images/words.js'
 
 export default function Home({ allPostsData }) {
   return (
     <div>
       <Navbar exp='active'/>
-      <Header title="Expression" image="/images/expression.svg" sec1="Words" sec2="Strokes" s1="active"/>
+      <Header title="Expression" svg="ExpressionImage" sec1="Words" sec2="Strokes" s1="active" key="Trial" />
       <section className={styles.container}>
-      <div className={styles.pic}>
-        <Image src={WordsSVG} alt="Words"  height={300} width={1000}  /> </div>
+      <div className={styles.pic}><Word />
+         </div>
         <div className={styles.blogposts}>
           {allPostsData.map(({ id, date, title, preview, category }) => (
             <div className={styles.blogCard} key={id} >

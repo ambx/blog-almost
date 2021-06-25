@@ -8,7 +8,7 @@ export default function Post({ postData }) {
     return (
       <div>
       <Navbar />
-      <Header title={postData.title} image="/images/words.svg" sec1={postData.date} s1="active" />       
+      <Header title={postData.title} svg="WordsImage" sec1={postData.date} s1="active" />       
       <div className={styles.container}>
         <div className={styles.mainContent} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </div>
