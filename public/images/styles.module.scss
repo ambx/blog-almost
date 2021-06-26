@@ -11,3 +11,9 @@
 .divider{
     width: 100%;       
 }
+.logo{
+    height: 1.5vw;
+    @include respond-below(sm){
+        height: 3vw;
+    }
+}
