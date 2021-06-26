@@ -13,7 +13,11 @@
 }
 .logo{
     height: 1.5vw;
+    @include respond-below(md){
+        height: 2.5vw;
+    }
     @include respond-below(sm){
-        height: 3vw;
+        height: 4vw;
     }
 }
+
