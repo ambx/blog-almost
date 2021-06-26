@@ -6,11 +6,11 @@ import ExpressionImage from '/public/images/expression.js'
 import WordsImage from '/public/images/words.js'
 import Divider from '/public/images/divider.js'
 
-
 export default function Header(props) {
     const svg=props.svg
     return(
         <header className={styles.header}>
+        
             <div className={styles.mainHeader}>
                 <h1 className={styles.headerTitle}>{props.title}</h1>
                 {svg==="Almost" ? <AboutImage /> : null}
@@ -25,13 +25,11 @@ export default function Header(props) {
             </ul>  
             <Divider />
             
-            <style jsx>
-                    {
-                        `
+                <style jsx>
+                    {`
                         .active{
                             color: #E5E5E5;
-                        }
-                        `
+                        }`
                     }
                 </style>
         </header>

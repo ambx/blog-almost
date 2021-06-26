@@ -6,7 +6,8 @@
     text-align: center;
     text-transform: uppercase;
     color: $accent;
-    
+    background-image: url("/images/dots-bg.svg");
+    background-size: cover;
     @include respond-below(md){
         margin-top: -80px;
     }
