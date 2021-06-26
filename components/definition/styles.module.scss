@@ -4,13 +4,11 @@
 .definition{
         text-align:left;
         text-transform:lowercase;
+        opacity:80%;
         @include respond-below(sm){
-            font-size: 0.5em;
+            font-size: 0.45em;
         }
         .phonetics{
             opacity: 60%;
-        }
-        .adverb{
-            font-style: italic;
         }
     }
