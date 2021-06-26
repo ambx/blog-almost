@@ -13,9 +13,6 @@
         margin: 0 auto;
         max-width: 700px;
         text-align: justify;
-        opacity: 80%;
-        @include respond-below(sm){
-            font-size: 0.75em;
-        }    
+        opacity: 80%; 
     }
 }

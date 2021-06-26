@@ -7,8 +7,8 @@
     text-transform: uppercase;
     color: $accent;
     
-    @include respond-below(sm){
-        margin-top: -25px;
+    @include respond-below(md){
+        margin-top: -80px;
     }
 
     .mainHeader{
@@ -22,18 +22,18 @@
             font-weight: bold;
             letter-spacing: 0.185em;
             font-size: 3em;
-
+            line-height: 45px;
             @include respond-below(md){
                 font-size: 2.5em;
-                text-align: left;
             }
             @include respond-below(sm){
                 font-size: 1em;
+                text-align: left;
             }
         }
     }
     .sectionTitle{
-        margin-left: -30px;
+        margin-left: -25px;
         text-align: left;
         text-align: left;
         display: flex;
