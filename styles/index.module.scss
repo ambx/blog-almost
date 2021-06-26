@@ -4,14 +4,11 @@
 .container{
     margin-top: 50px;
     text-align: center;
-    color: $accent;
     line-height: 25px;
+    color: $accent;
     @include respond-below(sm){
         margin-top: 20px;
         
-    }
-    .p{
-        height: 20vw;
     }
     .blogposts{
         margin-top: 100px;
@@ -19,15 +16,14 @@
         grid-template-columns: repeat(3,auto);
         gap: 80px;
         text-align: left;
-        font-size: 1em;
         @include respond-below(md){
             grid-template-columns: auto;
             margin-top: 80px;
             font-size: 0.75em;
         }
         .blogCard{
-            list-style: none;
             margin-top: -50px;
+            list-style: none;
             @include respond-below(sm){
                 margin-top: -65px;
             }
@@ -43,8 +39,7 @@
                     text-align: justify;
                     opacity: 80%;
                 }
-                .detail{                
-                    
+                .detail{
                     opacity: 70%;
                     font-style: italic;
                     span{

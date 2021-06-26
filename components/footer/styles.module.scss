@@ -2,13 +2,12 @@
 @import "../../styles/mixins";
 
 .footer {
-   position: relative;
-   bottom: 0;
-    margin-top: 200px;
-    color: $grey;
+    position: relative;
+    bottom: 0;
+    margin-top: 150px;
     width: 100%;
     text-align: center;
-
+    color: $grey;
     p {
         letter-spacing: 3px;
         text-transform: uppercase;
@@ -16,6 +15,5 @@
         @include respond-below(sm){
             font-size: 0.5em;
         }
-        
     }
 }
