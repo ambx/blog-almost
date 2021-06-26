@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
         <Navbar about='active'/>
-        <Header title="Almost" />
+        <Header title="Almost" svg="Almost" />
         <About />
     </div>
   )

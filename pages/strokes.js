@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Navbar exp='active'/>
-      <Header title="Expression" sec1="Words" sec2="Strokes" s2="active"/>
+      <Header title="Expression" sec1="Words" sec2="Strokes" s2="active" svg="Expression"/>
       <Strokes />
     </div>
   )

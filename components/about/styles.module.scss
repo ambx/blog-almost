@@ -7,35 +7,25 @@
     margin-bottom: -100px;
     line-height: 30px;
     text-align:center;
+    font-size: 1em;
     @include respond-below(sm){
         margin-top: 20px;
-        line-height: 15px;
+        font-size: 0.75em;
     }
     .title{
-        font-size: 1.5em;
-        letter-spacing: 2px;
-        text-transform: capitalize;
+        letter-spacing: 3px;
+        text-transform: uppercase;
         font-weight: bold;
-        @include respond-below(sm){
-            font-size: 0.8em;
-            text-align: center;
-        }
     }
     .content{
-        
-        opacity: 70%;
-        @include respond-below(sm){
-            font-size: 0.5em;
-        }
         p{
             margin: 0 auto;
             max-width: 700px;
             text-align: justify;
-
+            opacity: 80%;
             span{
                 font-style: italic;
-                font-size: 0.75em;
-                opacity: 50%;
+                opacity: 70%;
             }
         }
     }

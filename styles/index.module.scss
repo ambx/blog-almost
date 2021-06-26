@@ -5,8 +5,10 @@
     margin-top: 50px;
     text-align: center;
     color: $accent;
+    line-height: 25px;
     @include respond-below(sm){
         margin-top: 20px;
+        
     }
     .p{
         height: 20vw;
@@ -17,9 +19,11 @@
         grid-template-columns: repeat(3,auto);
         gap: 80px;
         text-align: left;
+        font-size: 1em;
         @include respond-below(md){
             grid-template-columns: auto;
             margin-top: 80px;
+            font-size: 0.75em;
         }
         .blogCard{
             list-style: none;
@@ -31,28 +35,18 @@
                 color: $accent;
                 .title{
                     text-align: left;
-                    font-weight: normal;
+                    font-weight: bold;
                     text-transform: uppercase;    
                     letter-spacing: 3px;                
-                    @include respond-below(sm){
-                        font-size: 0.8em;
-                    }
                 }
                 .preview{
                     text-align: justify;
-                    opacity: 50%;
-                    @include respond-below(sm){
-                        font-size: 0.5em;
-                    }
-                    
+                    opacity: 80%;
                 }
                 .detail{                
-                    font-size: 0.8em;
-                    opacity: 30%;
+                    
+                    opacity: 70%;
                     font-style: italic;
-                    @include respond-below(sm){
-                        font-size: 0.3em;
-                    }
                     span{
                         margin-left: 10px;
                     }
@@ -61,7 +55,6 @@
             a:hover{
                 color: $grey;
             }
-            
             
         }
 
