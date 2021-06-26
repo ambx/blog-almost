@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss"
 import Image from 'next/image'
-import Strokes from '../images/strokes.js'
+import Strokes from '/public//images/strokes.js'
 
 
 export default function Words(props){

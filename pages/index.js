@@ -5,7 +5,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Navbar from '../components/navbar/index'
 import Header from '../components/Header/index'
 import styles from '../styles/index.module.scss'
-import Word from "../components/images/words.js"
+import Word from "/public/images/words.js"
 
 export default function Home({ allPostsData }) {
   return (

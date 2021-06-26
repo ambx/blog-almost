@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from "./styles.module.scss"
-import AboutImage from "../images/about.js"
-import ExpressionImage from '../images/expression.js'
-import WordsImage from '../images/words.js'
-import Divider from '../images/divider.js'
+import AboutImage from "/public/images/about.js"
+import ExpressionImage from '/public/images/expression.js'
+import WordsImage from '/public/images/words.js'
+import Divider from '/public/images/divider.js'
 
 
 export default function Header(props) {
