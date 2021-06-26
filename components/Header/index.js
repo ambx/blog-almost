@@ -5,6 +5,7 @@ import AboutImage from "/public/images/about.js"
 import ExpressionImage from '/public/images/expression.js'
 import WordsImage from '/public/images/words.js'
 import Divider from '/public/images/divider.js'
+import Definition from '../definition/index'
 
 export default function Header(props) {
     const svg=props.svg
@@ -12,7 +13,10 @@ export default function Header(props) {
         <header className={styles.header}>
         
             <div className={styles.mainHeader}>
-                <h1 className={styles.headerTitle}>{props.title}</h1>
+                <div>
+                    <h1 className={styles.headerTitle}>{props.title}</h1>
+                    {svg==="Almost" ? <Definition />: null}
+                </div>
                 {svg==="Almost" ? <AboutImage /> : null}
                 {svg==="Expression" ? <ExpressionImage /> : null}
                 {svg==="Words" ? <WordsImage /> : null} 
@@ -35,3 +39,4 @@ export default function Header(props) {
         </header>
     )
 }
+

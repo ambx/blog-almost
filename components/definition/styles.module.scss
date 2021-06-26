@@ -1,0 +1,16 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.definition{
+        text-align:left;
+        text-transform:lowercase;
+        @include respond-below(sm){
+            font-size: 0.5em;
+        }
+        .phonetics{
+            opacity: 60%;
+        }
+        .adverb{
+            font-style: italic;
+        }
+    }
