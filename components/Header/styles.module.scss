@@ -25,6 +25,7 @@
 
             @include respond-below(md){
                 font-size: 2.5em;
+                text-align: left;
             }
             @include respond-below(sm){
                 font-size: 1em;
