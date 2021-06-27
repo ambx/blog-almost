@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import { getSortedPostsData } from '../lib/posts'
 import Navbar from '../components/navbar/index'
 import Header from '../components/Header/index'
