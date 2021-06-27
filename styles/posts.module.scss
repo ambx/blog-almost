@@ -21,7 +21,11 @@
 .postsNav{
     display:flex;
     justify-content: space-between;
-    
+    @include respond-below(md){
+        a:hover{
+            color: $accent;
+        }
+    }
     span{
         font-style: italic;
         text-decoration: underline;
