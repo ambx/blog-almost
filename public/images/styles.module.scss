@@ -5,7 +5,7 @@
     height: 20vw;
 
     @include respond-below(sm){
-        height: 28vw;
+        height: 30vw;
     }
 }
 .divider{
@@ -21,3 +21,9 @@
     }
 }
 
+.unibrow{
+    width:25vw;
+    @include respond-below(sm){
+        width: 40vw;
+    }
+}

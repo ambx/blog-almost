@@ -5,8 +5,9 @@
         text-align:left;
         text-transform:lowercase;
         opacity:80%;
+        margin-top: -10px;
         @include respond-below(sm){
-            font-size: 0.45em;
+            display: none;
         }
         .phonetics{
             opacity: 60%;

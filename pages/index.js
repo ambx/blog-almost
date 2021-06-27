@@ -6,6 +6,7 @@ import Navbar from '../components/navbar/index'
 import Header from '../components/Header/index'
 import styles from '../styles/index.module.scss'
 import Word from "/public/images/words.js"
+import { parseISO, format } from 'date-fns'
 
 export default function Home({ allPostsData }) {
   return (
@@ -20,7 +21,7 @@ export default function Home({ allPostsData }) {
               <Link href={`/posts/${id}`}><a>
                 <p className={styles.title}>{title}</p>
                 <p className={styles.preview}>{preview}</p>
-                <p className={styles.detail}>{date}<span>{`• `}{category}</span></p>
+                <p className={styles.detail}>{format(parseISO(date), 'LLLL d, yyyy')}<span>{`• `}{category}</span></p>
               </a></Link>  
             </div>
           ))}
