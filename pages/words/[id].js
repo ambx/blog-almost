@@ -1,6 +1,6 @@
 import { parseISO, format } from 'date-fns'
 import Link from 'next/link'
-import { getAllPostIds, getPostData, getSortedPostsData} from '../../lib/posts'
+import { getAllPostIds, getPostData, getSortedPostsData} from '../../lib/words'
 import Navbar from '../../components/navbar/index'
 import Header from '../../components/Header/index'
 import styles from '../../styles/posts.module.scss'
@@ -28,8 +28,8 @@ export default function Post({ postData, allPostsData }) {
         <div className={styles.mainContent} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         <br />
         <div className={styles.postsNav}>
-          <li>{prevIndex>=0 ? <Link href={`/posts/${allPostsData[prevIndex].id}`}><a className={styles.next}><span>Previous</span></a></Link> : null}</li>
-          <li>{nextIndex<=arrayLength ? <Link href={`/posts/${allPostsData[nextIndex].id}`}><a className={styles.prev}><span>Next</span></a></Link> : null }</li>
+          <li>{prevIndex>=0 ? <Link href={`/words/${allPostsData[prevIndex].id}`}><a className={styles.next}><span>Previous</span></a></Link> : null}</li>
+          <li>{nextIndex<=arrayLength ? <Link href={`/words/${allPostsData[nextIndex].id}`}><a className={styles.prev}><span>Next</span></a></Link> : null }</li>
       </div>
       </div>
       
