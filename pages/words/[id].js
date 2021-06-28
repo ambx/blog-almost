@@ -8,7 +8,7 @@ export default function Post({ postData, allPostsData }) {
     return (
     <div>
       <Head>
-        <title>Almost | {postData.title}</title>
+        <title>{postData.title} | Almost</title>
       </Head>
       <Navbar />
       <Header title={postData.title}  svg="Words"/> 

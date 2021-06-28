@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
         <Head>
-          <title>Almost | About</title>
+          <title>About | Almost</title>
         </Head>
         <Navbar about='active'/>
         <Header title="Almost" svg="Almost" s3="active" />

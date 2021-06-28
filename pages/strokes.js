@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Almost | Strokes</title>
+        <title>Strokes | Almost</title>
       </Head>
       <Navbar exp='active'/>
       <Header title="Expression" s2="active" svg="Expression"/>
