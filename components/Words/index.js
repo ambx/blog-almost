@@ -4,7 +4,6 @@ import styles from './styles.module.scss'
 
 export default function Words(props){
 
-    const date=props.current.date
     //allPostsData length
     const arrayLength=props.all.length-1
     //current post id
@@ -16,7 +15,7 @@ export default function Words(props){
 
     return(
         <div className={styles.container}>
-            <p className={styles.date}>{date}</p>   
+            <p className={styles.date}>{format(parseISO(date), 'LLLL d, yyyy')}</p>   
             <div className={styles.mainContent} dangerouslySetInnerHTML={{ __html: props.current.contentHtml }} />
             <br />
             <div className={styles.postsNav}>
