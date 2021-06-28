@@ -15,7 +15,7 @@ export default function Words(props){
 
     return(
         <div className={styles.container}>
-            <p className={styles.date}>{format(parseISO(props.current.date), 'LLLL d, yyyy')}</p>   
+            <p className={styles.date}>{format(parseISO(props.current.date), 'd LLLL, yyyy')}</p>   
             <div className={styles.mainContent} dangerouslySetInnerHTML={{ __html: props.current.contentHtml }} />
             <br />
             <div className={styles.postsNav}>
