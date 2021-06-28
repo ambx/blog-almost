@@ -22,17 +22,17 @@ export default function Header(props) {
                 {svg==="Words" ? <WordsImage /> : null} 
             </div>
             <br />
-            <ul className={styles.sectionTitle}>
-                <li><Link href="/"  ><a className={props.s1}>Words</a></Link></li>
-                <li><Link href="/strokes"><a className={props.s2}>Strokes</a></Link></li>
-                <li><Link href="/about"><a className={props.s3}>About</a></Link></li>
-            </ul>  
+            <div className={styles.sectionTitle}>
+                <li><Link href="/"  ><a><span className={props.s1}>Words</span></a></Link></li>
+                <li><Link href="/strokes"><a><span className={props.s2}>Strokes</span></a></Link></li>
+                <li><Link href="/about"><a><span className={props.s3}>About</span></a></Link></li>
+            </div>  
             <Divider />
             
                 <style jsx>
                     {`
                         .active{
-                            color: #E5E5E5;
+                            color: #E7D69B;
                         }`
                     }
                 </style>

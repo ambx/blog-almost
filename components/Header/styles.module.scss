@@ -35,7 +35,6 @@
         }
     }
     .sectionTitle{
-        margin-left: -25px;
         text-align: left;
         text-align: left;
         display: flex;
@@ -47,6 +46,12 @@
         }
         li{
             text-align: left;
+            a{
+                color: #E5E5E5;
+            }
+            a:hover{
+                color: #E7D69B;
+            }
         }
     }
  
