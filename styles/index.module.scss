@@ -9,43 +9,4 @@
     @include respond-below(sm){
         margin-top: 20px;  
     }
-    .blogposts{
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns: repeat(3,auto);
-        gap: 80px;
-        text-align: left;
-        @include respond-below(md){
-            grid-template-columns: auto;
-            margin-top: 80px;
-        }
-        .blogCard{
-            margin-top: -50px;
-            list-style: none;
-            @include respond-below(sm){
-                margin-top: -65px;
-            }
-            a{
-                .title{
-                    text-align: left;
-                    font-weight: bold;
-                    text-transform: uppercase;    
-                    letter-spacing: 3px;                
-                }
-                .preview{
-                    text-align: justify;
-                    opacity: 80%;
-                }
-                .detail{
-                    opacity: 70%;
-                    font-style: italic;
-                    span{
-                        margin-left: 10px;
-                    }
-                }
-            }
-            
-        }
-
-    }
 }

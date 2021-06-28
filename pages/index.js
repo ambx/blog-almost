@@ -6,6 +6,7 @@ import Header from '../components/Header/index'
 import styles from '../styles/index.module.scss'
 import Word from "/public/images/words.js"
 import { parseISO, format } from 'date-fns'
+import BlogCard from '../components/BlogCard/index'
 
 export default function Home({ allPostsData }) {
   return (
@@ -13,18 +14,8 @@ export default function Home({ allPostsData }) {
       <Navbar exp='active'/>
       <Header title="Expression" s1="active" svg="Expression" />
       <section className={styles.container}>
-        <div className={styles.pic}><Word /></div>
-        <div className={styles.blogposts}>
-          {allPostsData.map(({ id, date, title, preview, category }) => (
-            <div className={styles.blogCard} key={id} >
-              <Link href={`/posts/${id}`}><a>
-                <p className={styles.title}>{title}</p>
-                <p className={styles.preview}>{preview}</p>
-                <p className={styles.detail}>{format(parseISO(date), 'LLLL d, yyyy')}<span>{`• `}{category}</span></p>
-              </a></Link>  
-            </div>
-          ))}
-        </div>
+        <div className={styles.image}><Word /></div>
+        <BlogCard data={allPostsData} /> 
       </section>
     </div>
   )
