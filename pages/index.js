@@ -9,9 +9,9 @@ import styles from '../styles/index.module.scss'
 export default function Home({ allPostsData }) {
   return (
     <div>
-    <Head>
-      <title>Expression | Almost</title>
-    </Head>
+      <Head>
+        <title>Expression | Almost</title>
+      </Head>
       <Navbar exp='active'/>
       <Header title="Expression" s1="active" svg="Expression" />
       <section className={styles.container}>

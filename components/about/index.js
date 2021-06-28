@@ -9,7 +9,7 @@ export default function About(){
                 <br />
                 {`I absolutely enjoyed building this baby up- from mulling over the word 'almost' for weeks to tying everything together. All art pieces here are original (unless mentioned otherwise) and almost complete- from the header piece of this section to the 'player' divider (showing whatever is being played is almost over) to all literary pieces and more. I often see myself as an exaggeration of confusion brewing inside this human frame. Over the years, I’ve learned that perhaps confusion is a permanent state of our minds. This little virtual jounal is just an extension of this confusion. I hope you enjoy journeying through this mess :) `}
                 <br /><br />
-                <span>Expressions header art piece inspired by <a href="https://www.ginakiel.com/">Gina Kiel</a>
+                <span>Expression header art piece inspired by <a href="https://www.ginakiel.com/">Gina Kiel</a>
                 </span>
                 </p>
             </div>
