@@ -22,13 +22,14 @@ export default function Post({ postData, allPostsData }) {
       <div>
       <Navbar />
       <Header title={postData.title}  svg="Words"/> 
-      <p className={styles.date}>{date}</p>   
+     
       <div className={styles.container}>
+      <p className={styles.date}>{date}</p>   
         <div className={styles.mainContent} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         <br />
         <div className={styles.postsNav}>
-          <li>{prevIndex>=0 ? <Link href={`/posts/${allPostsData[prevIndex].id}`}><a className={styles.next}><span>{allPostsData[prevIndex].title}</span></a></Link> : null}</li>
-          <li>{nextIndex<=arrayLength ? <Link href={`/posts/${allPostsData[nextIndex].id}`}><a className={styles.prev}><span>{allPostsData[nextIndex].title}</span></a></Link> : null }</li>
+          <li>{prevIndex>=0 ? <Link href={`/posts/${allPostsData[prevIndex].id}`}><a className={styles.next}><span>Previous</span></a></Link> : null}</li>
+          <li>{nextIndex<=arrayLength ? <Link href={`/posts/${allPostsData[nextIndex].id}`}><a className={styles.prev}><span>Next</span></a></Link> : null }</li>
       </div>
       </div>
       

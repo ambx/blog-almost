@@ -21,17 +21,19 @@
 .postsNav{
     display:flex;
     justify-content: space-between;
-    @include respond-below(md){
         a:hover{
-            color: $accent;
+            @include respond-below(md){
+                color: $accent;
+            }
         }
-    }
+    
     span{
         font-style: italic;
         text-decoration: underline;
     }
 }
 .date{
+    text-align:left;
     font-size: 0.75em;
     font-style: italic;
     opacity: 70%;
