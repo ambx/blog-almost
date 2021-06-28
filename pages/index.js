@@ -10,7 +10,7 @@ export default function Home({ allPostsData }) {
   return (
     <div>
       <Head>
-        <title>Expression | Almost</title>
+        <title>Words | Almost</title>
       </Head>
       <Navbar exp='active'/>
       <Header title="Expression" s1="active" svg="Expression" />
