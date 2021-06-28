@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { parseISO, format } from 'date-fns'
 import styles from './styles.module.scss';
 
-export default function BlogCard(props){
+export default function WordCard(props){
     return(
         <div className={styles.blogposts}>
           {props.data.map(({ id, date, title, preview, category }) => (
