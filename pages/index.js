@@ -4,7 +4,7 @@ import { getSortedPostsData } from '../lib/words'
 import Navbar from '../components/navbar/index'
 import Header from '../components/Header/index'
 import styles from '../styles/index.module.scss'
-import Word from "/public/images/words.js"
+import WordsImage from "/public/images/words.js"
 import { parseISO, format } from 'date-fns'
 import WordCard from '../components/WordCard/index'
 
@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       <Navbar exp='active'/>
       <Header title="Expression" s1="active" svg="Expression" />
       <section className={styles.container}>
-        <div className={styles.image}><Word /></div>
+        <div className={styles.image}><WordsImage /></div>
         <WordCard data={allPostsData} /> 
       </section>
     </div>
