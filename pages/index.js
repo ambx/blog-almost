@@ -1,16 +1,17 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import { getSortedPostsData } from '../lib/words'
 import Navbar from '../components/navbar/index'
 import Header from '../components/Header/index'
-import styles from '../styles/index.module.scss'
 import WordsImage from "/public/images/words.js"
-import { parseISO, format } from 'date-fns'
 import WordCard from '../components/WordCard/index'
+import styles from '../styles/index.module.scss'
 
 export default function Home({ allPostsData }) {
   return (
     <div>
+    <Head>
+      <title>Almost | Expression</title>
+    </Head>
       <Navbar exp='active'/>
       <Header title="Expression" s1="active" svg="Expression" />
       <section className={styles.container}>

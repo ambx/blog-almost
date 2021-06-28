@@ -6,6 +6,9 @@ import Strokes from '../components/strokes/index'
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Almost | Strokes</title>
+      </Head>
       <Navbar exp='active'/>
       <Header title="Expression" s2="active" svg="Expression"/>
       <Strokes />
