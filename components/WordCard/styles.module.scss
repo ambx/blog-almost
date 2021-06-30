@@ -9,7 +9,7 @@
     text-align: left;
     @include respond-below(md){
         grid-template-columns: auto;
-        margin-top: 80px;
+        margin-top: 60px;
     }
     .blogCard{
         margin-top: -50px;
