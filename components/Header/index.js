@@ -23,9 +23,11 @@ export default function Header(props) {
             </div>
             <br />
             <div className={styles.sectionTitle}>
+
                 <li><Link href="/"  ><a className={props.s1}>Words</a></Link></li>
                 <li><Link href="/strokes"><a className={props.s2}>Strokes</a></Link></li>
                 <li><Link href="/about"><a className={props.s3}>About</a></Link></li>
+
             </div>  
             <Divider />
             

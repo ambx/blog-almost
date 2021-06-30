@@ -6,9 +6,8 @@ import Strokes from '/public//images/strokes.js'
 export default function Words(props){
     return(
         <div className={styles.container}>
-            <p>Coming Soon</p>
             <Strokes />
-            
+            <p>Coming Soon</p>          
             
         </div>
     )
