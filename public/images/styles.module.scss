@@ -6,25 +6,16 @@
     max-height: 350px;
     @include respond-below(sm){
         height: 30vw;
+        min-height: 100px;
     }
 }
 .divider{
     width: 100%;       
 }
 .logo{
-    height: 1.75vw;
-    max-height: 30px;
-    @include respond-below(md){
-        height: 2.75vw;
-    }
+    width: 80px;
     @include respond-below(sm){
-        height: 4vw;
+        width: 60px;
     }
-}
-
-.unibrow{
-    width:25vw;
-    @include respond-below(sm){
-        width: 40vw;
-    }
+    
 }

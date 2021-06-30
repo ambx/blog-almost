@@ -8,11 +8,7 @@
     color: $accent;
     background-image: url("/images/dots-bg.svg");
     background-size: cover;
-    margin-top: -80px;
     margin-bottom: 50px;
-    @include respond-below(sm){
-        margin-bottom: 20px;
-    }
     .mainHeader{
         display: flex;
         justify-content: space-around;
@@ -36,7 +32,6 @@
         }
     }
     .sectionTitle{
-        text-align: left;
         text-align: left;
         display: flex;
         gap: 20px;

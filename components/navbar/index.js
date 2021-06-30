@@ -4,14 +4,10 @@ import styles from "./styles.module.scss"
 
 export default function navbar(props) {
   return (
-    <nav className={styles.NavbarItem}>
-      <div className={styles.navLogo}><li><Link href="/"><a className={styles.active}><Logo /></a></Link></li></div>
-      <ul> 
-       
-      </ul>
-
-      
-    </nav>
+      <nav className={styles.NavbarItem}><Link href="/"><a className={styles.active}>
+        <li className={styles.logoName}>Almost</li>
+        <li className={styles.logoSvg}><Logo /></li>  
+      </a></Link></nav>
   );
 }
 
