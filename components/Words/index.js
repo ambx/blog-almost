@@ -15,7 +15,7 @@ export default function Words(props){
 
     return(
         <div className={styles.container}>
-            <p className={styles.date}>{format(parseISO(props.current.date), 'LLLL d, yyyy')}</p>   
+            <p className={styles.date}>{format(parseISO(props.current.date), 'd LLLL, yyyy')}</p>   
             {props.current.category==="Prose" ? <div className={styles.proseContent} dangerouslySetInnerHTML={{ __html: props.current.contentHtml }} /> : null}
             {props.current.category==="Poem" ? <div className={styles.poemContent} dangerouslySetInnerHTML={{ __html: props.current.contentHtml }} /> : null}
             <br /><br />
