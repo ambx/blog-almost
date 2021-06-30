@@ -3,16 +3,11 @@
 
 .container{
     margin: 0 auto;
-    margin-top: 100px;
     margin-bottom: 100px;
     line-height: 30px;
     text-align:center;
     opacity: 0.8;
-    
     max-width: 700px;
-    @include respond-below(sm){
-        margin-top: 20px;
-    }
     .content{
         margin-bottom: 100px;
         @include respond-below(sm){
