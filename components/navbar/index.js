@@ -5,7 +5,7 @@ import styles from "./styles.module.scss"
 export default function navbar(props) {
   return (
     <nav className={styles.NavbarItem}>
-      <div className={styles.navLogo}><li><Link href="/"><a className={props.exp}><Logo /></a></Link></li></div>
+      <div className={styles.navLogo}><li><Link href="/"><a className={styles.active}><Logo /></a></Link></li></div>
       <ul> 
        
       </ul>

@@ -7,16 +7,18 @@
     line-height: 30px;
     text-align:center;
     max-width: 700px;
-    opacity: 80%; 
+    opacity: 0.8; 
     @include respond-below(sm){
         margin-top: 20px;
     }
-    .mainContent{
+    .proseContent{
         margin: 0 auto;
         text-align: justify;
     }
-    
-    
+    .poemContent{
+        margin: 0 auto;
+        text-align: left;
+    }        
 }
 .postsNav{
     display:flex;
@@ -26,7 +28,6 @@
                 color: $accent;
             }
         }
-    
     span{
         font-style: italic;
         text-decoration: underline;
@@ -34,7 +35,7 @@
 }
 .date{
     text-align:left;
-    font-size: 0.75em;
+    font-size: 0.9em;
     font-style: italic;
-    opacity: 70%;
+    opacity: 0.5;
 }

@@ -22,19 +22,22 @@ export default function Header(props) {
                 {svg==="Words" ? <WordsImage /> : null} 
             </div>
             <br />
-            <ul className={styles.sectionTitle}>
+            <div className={styles.sectionTitle}>
                 <li><Link href="/"  ><a className={props.s1}>Words</a></Link></li>
                 <li><Link href="/strokes"><a className={props.s2}>Strokes</a></Link></li>
                 <li><Link href="/about"><a className={props.s3}>About</a></Link></li>
-            </ul>  
+            </div>  
             <Divider />
             
                 <style jsx>
                     {`
-                        .active{
-                            color: #E5E5E5;
-                        }`
-                    }
+                        a{
+                            opacity:0.5;
+                        }
+                        .active, a:hover{
+                            opacity:1;
+                        }
+                    `}
                 </style>
         </header>
     )

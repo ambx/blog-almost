@@ -3,7 +3,7 @@
 
 .about, .Expression, .word, .strokes{
     height: 20vw;
-
+    max-height: 350px;
     @include respond-below(sm){
         height: 30vw;
     }
@@ -12,9 +12,10 @@
     width: 100%;       
 }
 .logo{
-    height: 1.5vw;
+    height: 1.75vw;
+    max-height: 30px;
     @include respond-below(md){
-        height: 2.5vw;
+        height: 2.75vw;
     }
     @include respond-below(sm){
         height: 4vw;
