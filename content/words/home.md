@@ -2,7 +2,7 @@
 title: 'Home'
 date: '2020-01-29'
 category: 'Prose'
-preview: 'Layered under this short-lived joy is a massive trunk of everything I’ve always wanted to get rid of, everything I never want to be reminded of, everything I never wanted or will want at all, that gets re-opened every time I come back here. It takes efforts to nail it down again later......'
+preview: 'Layered under this short-lived joy is a massive trunk of everything I’ve always wanted to get rid of, everything I never want to be reminded of, everything I never wanted or will want at all, that gets re-opened every time I come back here. It takes efforts to nail it down again later.'
 ---
 
 Layered under this short-lived joy is a massive trunk of everything I’ve always wanted to get rid of, everything I never want to be reminded of, everything I never wanted or will want at all, that gets re-opened every time I come back here. It takes efforts to nail it down again later. This trunk of everything is all those a,b,c and alpha, beta, gamma that I’ve been running away from all my life, yet refuse to completely let go of. Over the years, I’ve weaved the belief into my very being that the home you grew up in, the people you lived your girlhood days with, everything that stood by you while you bloomed to be you, could never possibly be the cause to disrupt your peace of mind. It’s a difficult battle because how can I love someone yet dislike being around them? How can just the thought of them bring so much comfort when I’m away yet cause so much turmoil when I’m with them? How is it that irrespective of the number of times I come here and go back with a heavy heart, I still wait to come here….again….soon?

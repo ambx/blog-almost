@@ -2,7 +2,7 @@
 title: 'Distance'
 date: '2019-11-10'
 category: 'Prose'
-preview: 'Human bonds are one of the most romanticised nodes of life, right? Marinated over time with giggles and tears, comfort and discomfort, liberation and bondage, this construct demanding an emotional devotion from both ends has forever intrigued me. Being communal beings, none of us are spared of this celebrated norm. I stand as no different......'
+preview: 'Human bonds are one of the most romanticised nodes of life, right? Marinated over time with giggles and tears, comfort and discomfort, liberation and bondage, this construct demanding an emotional devotion from both ends has forever intrigued me. Being communal beings, none of us are spared of this celebrated norm. I stand as no different.'
 ---
 
 Human bonds are one of the most romanticised nodes of life, right? Marinated over time with giggles and tears, comfort and discomfort, liberation and bondage, this construct demanding an emotional devotion from both ends has forever intrigued me. Being communal beings, none of us are spared of this celebrated norm. I stand as no different.

@@ -18,7 +18,13 @@
     .poemContent{
         margin: 0 auto;
         text-align: left;
-    }        
+    }      
+    .date{
+        text-align:left;
+        font-size: 0.9em;
+        font-style: italic;
+        opacity: 0.5;
+    }
 }
 .postsNav{
     display:flex;
@@ -32,10 +38,4 @@
         font-style: italic;
         text-decoration: underline;
     }
-}
-.date{
-    text-align:left;
-    font-size: 0.9em;
-    font-style: italic;
-    opacity: 0.5;
 }

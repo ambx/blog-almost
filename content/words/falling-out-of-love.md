@@ -2,7 +2,7 @@
 title: 'Falling Out of Love'
 date: '2019-12-22'
 category: 'Prose'
-preview: 'If I were asked to pen that very moment down, I’d fail. Not once, not twice, but always. Let’s agree on this, verbal descriptions will probably never make up for the narration of an abstract idea as mystic as love. ‘Love’ – I believe is one of the most overused yet misinterpreted words in ones’ early teen and adulthood years, such that we tend to forget the very essence of it, terming every x, y or z with it......'
+preview: 'If I were asked to pen that very moment down, I’d fail. Not once, not twice, but always. Let’s agree on this, verbal descriptions will probably never make up for the narration of an abstract idea as mystic as love. ‘Love’ – I believe is one of the most overused yet misinterpreted words in ones’ early teen and adulthood years.'
 ---
 
 If I were asked to pen that very moment down, I’d fail. Not once, not twice, but always. Let’s agree on this, verbal descriptions will probably never make up for the narration of an abstract idea as mystic as love. ‘Love’ – I believe is one of the most overused yet misinterpreted words in ones’ early teen and adulthood years, such that we tend to forget the very essence of it, terming every x, y or z with it.

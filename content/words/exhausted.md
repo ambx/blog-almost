@@ -2,8 +2,7 @@
 title: 'Exhausted'
 date: '2017-11-25'
 category: 'Poem'
-preview: 'We, as humans, are forever looking for reasons to let go of everything and celebrate, right? Celebrate with lessons taught to us by life, to help better ourselves for whatever reason we’re here for or plainly put, maybe just to puff off the undesired tension around.
-I, like most people, love celebrations. This practice of acknowledgement, of appreciation, of loosening up, does things to our otherwise overworked and crippling spirits......'
+preview: 'What do you do when you grow intolerant to your kind? How does a social being go on to live the rest of her numbered days with a strong repulse to everyone around? Maybe this human frame is too little a place to contain all this anger? Where do you go and dispose off the soaring anger within you?'
 ---
 
 As utter chaos vacuums it all out,

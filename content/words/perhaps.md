@@ -2,8 +2,7 @@
 title: 'Perhaps'
 date: '2016-01-30'
 category: 'Poem'
-preview: 'We, as humans, are forever looking for reasons to let go of everything and celebrate, right? Celebrate with lessons taught to us by life, to help better ourselves for whatever reason we’re here for or plainly put, maybe just to puff off the undesired tension around.
-I, like most people, love celebrations. This practice of acknowledgement, of appreciation, of loosening up, does things to our otherwise overworked and crippling spirits......'
+preview: 'As someone who has been battling with anxiety all her life, basic activities stand as major struggles to me. It drains a lot of my already drained energy. In those moments where I hesitantly yet quite reflexly swallow words that were supposed to be heard, I sink a little deeper and loathe myself a bit more than the moment before. This inability to function around people like a normal person for once, it is killing me.'
 ---
 
 ‘Perhaps…’ she wondered as she wrapped herself,

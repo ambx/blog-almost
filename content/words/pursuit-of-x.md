@@ -2,8 +2,7 @@
 title: 'Pursuit of X'
 date: '2017-05-27'
 category: 'Poem'
-preview: 'We, as humans, are forever looking for reasons to let go of everything and celebrate, right? Celebrate with lessons taught to us by life, to help better ourselves for whatever reason we’re here for or plainly put, maybe just to puff off the undesired tension around.
-I, like most people, love celebrations. This practice of acknowledgement, of appreciation, of loosening up, does things to our otherwise overworked and crippling spirits......'
+preview: 'There comes a time in all our lives where we meet someone and we are just beyond amazed. Everything about them screams "Woahh"! This is a tiny piece on one such friend of mine, who I co-incidentally stumbled upon in high school. I unlearned and learned so much from her over the course of many years we remained friends.'
 ---
 
 Red-lettered are those rhythms, in this blink we call a lifetime,
