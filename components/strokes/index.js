@@ -7,8 +7,8 @@ export default function Words(props){
     return(
         <div className={styles.container}>
             <Strokes />
-            <p>Coming Soon</p>          
-            
+            <br /><br /><br />
+            <p>Coming Soon</p>  
         </div>
     )
 }

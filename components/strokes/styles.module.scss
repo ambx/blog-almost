@@ -4,13 +4,12 @@
 .container{
     margin-top: 35px;
     text-align: center;
+    height: 100%;
     color: $accent;
-    Image{
-        height: 20vw;
-    }
     p{
         text-transform: uppercase;
         letter-spacing: 3px;
-        opacity: 80%;
+        opacity: 0.5;
+        
     }
 }
