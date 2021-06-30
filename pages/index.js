@@ -15,8 +15,8 @@ export default function Home({ allPostsData }) {
       <Navbar exp='active'/>
       <Header title="Expression" s1="active" svg="Expression" />
       <section className={styles.container}>
-        <div className={styles.image}><WordsImage /></div>
-        <WordCard data={allPostsData} /> 
+        <WordCard data={allPostsData} />
+        {/*<div className={styles.image}><WordsImage /></div>*/}
       </section>
     </div>
   )

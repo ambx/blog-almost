@@ -10,7 +10,7 @@ export default function About(){
                 <br />
                 {`I absolutely enjoyed building this baby up- from mulling over the word 'almost' for years now to tying everything together. All art pieces here are original (unless mentioned otherwise) and almost complete- from the header piece of this section to all literary pieces and more. I often see myself as an exaggeration of confusion brewing inside this human frame. Over the years, I’ve learned that perhaps confusion is a permanent state of our minds. This little virtual journal is just an extension of this confusion. I hope you enjoy journeying through this mess :)`}
                 <p>You can write to me <a href = "mailto: hiba.hf123@gmail.com">here</a> :)</p>
-                <br /><br />
+                <br />
                 <span>Expression header art piece inspired by <a href="https://www.ginakiel.com/">Gina Kiel</a>
                 </span>
                 </p>
