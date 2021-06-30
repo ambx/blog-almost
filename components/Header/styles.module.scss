@@ -12,7 +12,7 @@
     margin-bottom: 50px;
     @include respond-below(sm){
         margin-bottom: 20px;
-        background-image: none;
+        
     }
     .mainHeader{
         display: flex;
