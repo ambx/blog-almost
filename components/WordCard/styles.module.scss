@@ -2,21 +2,17 @@
 @import "../../styles/mixins";
 
 .blogposts{
-    margin-bottom: 100px;
     display: grid;
-    grid-template-columns: repeat(3,auto);
-    gap: 80px;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+    grid-column-gap: 80px;
+    grid-row-gap: 20px;
     text-align: left;
     @include respond-below(md){
         grid-template-columns: auto;
-        margin-bottom: 60px;
+        grid-row-gap: 10px;
     }
     .blogCard{
         list-style: none;
-        margin-bottom: -30px;
-        @include respond-below(sm){
-            margin-bottom: -50px;
-        }
         a{
             .title{
                 text-align: left;
@@ -31,7 +27,7 @@
             .detail{
                 opacity: 0.5;
                 font-style: italic;
-                font-size:0.9 em;
+                font-size: 0.9em;
                 span{
                     margin-left: 10px;
                 }
