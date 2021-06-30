@@ -9,6 +9,9 @@
     background-image: url("/images/dots-bg.svg");
     background-size: cover;
     margin-bottom: 50px;
+    @include respond-below(sm){
+        margin-bottom: 20px;
+    }
     .mainHeader{
         display: flex;
         justify-content: space-around;
@@ -23,10 +26,10 @@
             line-height: 45px;
             @include respond-below(md){
                 font-size: 2.5em;
+                text-align: left;
             }
             @include respond-below(sm){
                 font-size: 1em;
-                text-align: left;
             }
             
         }
