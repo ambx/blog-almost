@@ -19,11 +19,14 @@
         margin: 0 auto;
         text-align: left;
     }      
-    .date{
-        text-align:left;
+    .date, .quote{
+        text-align:justify;
         font-size: 0.9em;
         font-style: italic;
         opacity: 0.5;
+    }
+    .quote{
+        font-size: 1em;
     }
 }
 .postsNav{

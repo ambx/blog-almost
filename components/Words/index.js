@@ -16,8 +16,9 @@ export default function Words(props){
     return(
         <div className={styles.container}>
             <p className={styles.date}>{format(parseISO(props.current.date), 'd LLLL, yyyy')}</p>   
+            {props.current.category==="Poem" ? <p className={styles.quote}>{props.current.preview}</p> : null}
             {props.current.category==="Prose" ? <div className={styles.proseContent} dangerouslySetInnerHTML={{ __html: props.current.contentHtml }} /> : null}
-            {props.current.category==="Poem" ? <div className={styles.poemContent} dangerouslySetInnerHTML={{ __html: props.current.contentHtml }} /> : null}
+            {props.current.category==="Poem" ? <div className={styles.poemContent} dangerouslySetInnerHTML={{ __html: props.current.contentHtml }}></div> : null}
             <br /><br />
             <div className={styles.postsNav}>
                 <li>{prevIndex>=0 ? <Link href={`/words/${props.all[prevIndex].id}`}><a className={styles.next}><span>Previous</span></a></Link> : null}</li>
