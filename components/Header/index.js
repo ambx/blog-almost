@@ -21,7 +21,7 @@ export default function Header(props) {
                 {svg==="Expression" ? <ExpressionImage /> : null}
                 {svg==="Words" ? <WordsImage /> : null} 
             </div>
-            <br />
+            <br /><br />
             <div className={styles.sectionTitle}>
 
                 <li><Link href="/"  ><a className={props.s1}>Words</a></Link></li>
