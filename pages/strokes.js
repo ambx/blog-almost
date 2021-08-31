@@ -10,7 +10,7 @@ export default function Home() {
         <title>Strokes | Almost</title>
       </Head>
       <Navbar exp='active'/>
-      <Header title="Expression" s2="active" svg="Expression"/>
+      <Header title="Almost" s2="active" svg="Almost" />
       <Strokes />
     </div>
   )

@@ -13,7 +13,7 @@ export default function Home({ allPostsData }) {
         <title>Words | Almost</title>
       </Head>
       <Navbar exp='active'/>
-      <Header title="Expression" s1="active" svg="Expression" />
+      <Header title="Almost" s1="active" svg="Almost" />
       <section className={styles.container}>
         <WordCard data={allPostsData} />
         {/*<div className={styles.image}><WordsImage /></div>*/}
