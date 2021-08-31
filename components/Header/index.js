@@ -14,7 +14,7 @@ export default function Header(props) {
         
             <div className={styles.mainHeader}>
                 <div>
-                    <h1 className={styles.headerTitle}>{props.title}</h1>
+                    <h1 className={styles.headerTitle}>Almost</h1>
                     {svg==="Almost" ? <Definition />: null}
                 </div>
                 {svg==="Almost" ? <AboutImage /> : null}

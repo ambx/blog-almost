@@ -2,7 +2,7 @@
 title: 'Validation'
 date: '2020-04-10'
 category: 'Prose'
-preview: I think I am forever lost between seeing and realizing the difference between seeking attention and paying attention. I often keep telling myself numerous times, over and over, that I do not want attention. I keep chanting this so many times, only so I actually engrain it in me. But who am I kidding?'
+preview: I think I am forever lost between seeing and realizing the difference between seeking attention and paying attention. I often keep telling myself numerous times, over and over, that I do not want attention. I keep chanting this so many times, only so I actually engrain it in me. But who am I kidding?
 ---
 
 As people, we are all naturally attracted to the idea of attracting attention. I think I am forever lost between seeing and realizing the difference between seeking attention and paying attention. Being the Hypocrite that I am, I go on rambling to my friends and family that I hate being the centre of attention, not realising that that very statement is a medium to harness the attention I so dearly crave.
