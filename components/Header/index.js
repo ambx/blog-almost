@@ -18,7 +18,6 @@ export default function Header(props) {
                     {svg==="Almost" ? <Definition />: null}
                 </div>
                 {svg==="Almost" ? <AboutImage /> : null}
-                {svg==="Expression" ? <AboutImage /> : null}
                 {svg==="Words" ? <WordsImage /> : null} 
             </div>
             <br /><br />
