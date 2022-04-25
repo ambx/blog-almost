@@ -40,6 +40,8 @@
         text-align: left;
         display: flex;
         gap: 20px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 200;
         font-size: 1em;
         letter-spacing: 3px; 
         @include respond-below(sm){

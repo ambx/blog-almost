@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/inter": "^4.5.7",
+    "@fontsource/montserrat": "^4.5.7",
+    "@fontsource/raleway": "^4.5.5",
     "date-fns": "^2.23.0",
     "gray-matter": "^4.0.3",
     "next": "^11.0.1",
